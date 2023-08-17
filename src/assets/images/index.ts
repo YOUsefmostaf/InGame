@@ -5,4 +5,5 @@ export const images = {
     mark: require('./mark.png'),
     redShirt: require('./redShirt.png'),
     shield: require('./shield.png'),
+    ligth: require('./ligth.png'),
 }

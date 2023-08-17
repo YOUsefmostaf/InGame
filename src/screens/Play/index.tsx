@@ -10,6 +10,7 @@ import Timer from '../../components/Timer';
 import NoToday from '../../components/NoToday';
 import MainCard from '../../components/MainCard';
 import Filter from '../../components/Filter';
+import Light from '../../components/Light';
 
 const Play = () => {
   return (
@@ -22,6 +23,7 @@ const Play = () => {
       {/* <NoToday/> */}
       {/* <MainCard/> */}
       {/* <Filter /> */}
+      {/* <Light/> */}
     </LinearGradient>
   );
 };
