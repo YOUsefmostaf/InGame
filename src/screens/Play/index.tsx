@@ -11,11 +11,16 @@ import NoToday from '../../components/NoToday';
 import MainCard from '../../components/MainCard';
 import Filter from '../../components/Filter';
 import Light from '../../components/Light';
+import NoYesterday from '../../components/NoYesterday';
+import UseJoker from '../../components/UseJoker';
+import ContinueButton from '../../components/ContinueButton';
+import Corners from '../../components/Corners';
+import Selection from '../../components/Selection';
 
 const Play = () => {
   return (
     <LinearGradient
-      colors={[COLORS.darkBlue, COLORS.black]}
+      colors={[COLORS.white, COLORS.white]}
       style={styles.container}>
       {/* <Top /> */}
       {/* <Tab /> */}
@@ -24,6 +29,11 @@ const Play = () => {
       {/* <MainCard/> */}
       {/* <Filter /> */}
       {/* <Light/> */}
+      {/* <NoYesterday /> */}
+      {/* <UseJoker/> */}
+      {/* <ContinueButton/> */}
+      {/* <Corners /> */}
+      {/* <Selection/> */}
     </LinearGradient>
   );
 };
